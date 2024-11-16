@@ -1,0 +1,9 @@
+{
+  "type": "model-csharp",
+  "require": {
+    "typehub/typeschema": {
+      "target": "./src/TypeSchema.Model",
+      "namespace": "TypeSchema.Model"
+    }
+  }
+}
