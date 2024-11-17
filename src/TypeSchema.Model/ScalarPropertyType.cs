@@ -13,7 +13,7 @@ namespace TypeSchema.Model;
 public abstract class ScalarPropertyType : PropertyType
 {
     [JsonPropertyName("type")]
-    public string? Type { get; set; }
+    public new string? Type { get; set; }
 
 }
 

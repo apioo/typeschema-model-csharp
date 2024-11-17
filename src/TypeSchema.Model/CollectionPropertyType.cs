@@ -14,7 +14,7 @@ public abstract class CollectionPropertyType : PropertyType
     public PropertyType? Schema { get; set; }
 
     [JsonPropertyName("type")]
-    public string? Type { get; set; }
+    public new string? Type { get; set; }
 
 }
 
