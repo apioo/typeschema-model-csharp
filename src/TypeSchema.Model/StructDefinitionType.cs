@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// A struct represents a class/structure with a fix set of defined properties.
+/// A struct represents a class/structure with a fix set of defined properties
 /// </summary>
 public class StructDefinitionType : DefinitionType
 {
