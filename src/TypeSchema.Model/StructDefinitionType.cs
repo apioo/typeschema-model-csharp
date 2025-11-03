@@ -22,5 +22,8 @@ public class StructDefinitionType : DefinitionType
     [JsonPropertyName("properties")]
     public System.Collections.Generic.Dictionary<string, PropertyType>? Properties { get; set; }
 
+    [JsonPropertyName("type")]
+    public new string? Type { get; set; } = "struct";
+
 }
 

@@ -10,5 +10,8 @@ public class GenericPropertyType : PropertyType
     [JsonPropertyName("name")]
     public string? Name { get; set; }
 
+    [JsonPropertyName("type")]
+    public new string? Type { get; set; } = "generic";
+
 }
 

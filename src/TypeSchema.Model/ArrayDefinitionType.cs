@@ -7,5 +7,8 @@ namespace TypeSchema.Model;
 /// </summary>
 public class ArrayDefinitionType : CollectionDefinitionType
 {
+    [JsonPropertyName("type")]
+    public new string? Type { get; set; } = "array";
+
 }
 

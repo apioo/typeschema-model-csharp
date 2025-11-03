@@ -13,5 +13,8 @@ public class StringPropertyType : ScalarPropertyType
     [JsonPropertyName("format")]
     public string? Format { get; set; }
 
+    [JsonPropertyName("type")]
+    public new string? Type { get; set; } = "string";
+
 }
 

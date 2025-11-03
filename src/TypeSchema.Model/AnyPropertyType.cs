@@ -7,5 +7,8 @@ namespace TypeSchema.Model;
 /// </summary>
 public class AnyPropertyType : PropertyType
 {
+    [JsonPropertyName("type")]
+    public new string? Type { get; set; } = "any";
+
 }
 
