@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// Base definition type
+/// The base abstract type for all schema definitions. It provides metadata common to all types such as descriptions and deprecation status.
 /// </summary>
 [JsonPolymorphic(TypeDiscriminatorPropertyName = "type")]
 [JsonDerivedType(typeof(ArrayDefinitionType), typeDiscriminator: "array")]
@@ -16,9 +16,6 @@ public abstract class DefinitionType
 
     [JsonPropertyName("description")]
     public string? Description { get; set; }
-
-    [JsonPropertyName("type")]
-    public string? Type { get; set; }
 
 }
 

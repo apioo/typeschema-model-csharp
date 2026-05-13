@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// Represents a generic value which can be replaced with a concrete type
+/// A placeholder for a type that will be specified at runtime or through template arguments.
 /// </summary>
 public class GenericPropertyType : PropertyType
 {

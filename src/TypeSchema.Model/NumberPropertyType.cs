@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// Represents a float value
+/// Represents a floating-point or decimal number.
 /// </summary>
 public class NumberPropertyType : ScalarPropertyType
 {

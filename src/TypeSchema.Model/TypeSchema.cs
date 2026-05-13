@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// TypeSchema specification
+/// The root object of a TypeSchema document containing imports, definitions, and the entry point.
 /// </summary>
 public class TypeSchema
 {

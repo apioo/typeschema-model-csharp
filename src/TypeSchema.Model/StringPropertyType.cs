@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// Represents a string value
+/// Represents a sequence of characters, optionally following a specific format.
 /// </summary>
 public class StringPropertyType : ScalarPropertyType
 {

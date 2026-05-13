@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// Represents an array which contains a dynamic list of values of the same type
+/// An ordered list of values where every item conforms to the same schema.
 /// </summary>
 public class ArrayDefinitionType : CollectionDefinitionType
 {

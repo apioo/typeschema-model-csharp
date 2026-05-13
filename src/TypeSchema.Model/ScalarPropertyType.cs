@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// Base scalar property type
+/// Abstract base for simple value types like strings, numbers, and booleans.
 /// </summary>
 [JsonPolymorphic(TypeDiscriminatorPropertyName = "type")]
 [JsonDerivedType(typeof(BooleanPropertyType), typeDiscriminator: "boolean")]
@@ -12,8 +12,5 @@ namespace TypeSchema.Model;
 [JsonDerivedType(typeof(StringPropertyType), typeDiscriminator: "string")]
 public abstract class ScalarPropertyType : PropertyType
 {
-    [JsonPropertyName("type")]
-    public new string? Type { get; set; }
-
 }
 
