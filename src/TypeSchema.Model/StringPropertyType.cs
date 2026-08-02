@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// Represents a sequence of characters, optionally following a specific format.
+/// Represents a sequence of characters, with optional formatting rules.
 /// </summary>
 public class StringPropertyType : ScalarPropertyType
 {

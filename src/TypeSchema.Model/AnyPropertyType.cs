@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// A wildcard property that accepts any valid JSON value (object, array, string, etc.).
+/// Represents a wildcard property that accepts any valid JSON value (object, array, string, number, boolean, or null).
 /// </summary>
 public class AnyPropertyType : PropertyType
 {

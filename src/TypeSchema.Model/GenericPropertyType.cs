@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// A placeholder for a type that will be specified at runtime or through template arguments.
+/// Represents a generic placeholder type that is resolved at runtime or via template arguments.
 /// </summary>
 public class GenericPropertyType : PropertyType
 {

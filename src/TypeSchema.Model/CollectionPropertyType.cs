@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// Abstract base for properties that reference inline maps or arrays.
+/// The abstract base type for properties that define inline collections (maps or arrays).
 /// </summary>
 [JsonPolymorphic(TypeDiscriminatorPropertyName = "type")]
 [JsonDerivedType(typeof(ArrayPropertyType), typeDiscriminator: "array")]

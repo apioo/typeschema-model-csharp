@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// Represents a true or false value.
+/// Represents a boolean true or false value.
 /// </summary>
 public class BooleanPropertyType : ScalarPropertyType
 {

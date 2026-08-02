@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// Abstract base for simple value types like strings, numbers, and booleans.
+/// The abstract base type for simple scalar value properties (strings, integers, numbers, booleans).
 /// </summary>
 [JsonPolymorphic(TypeDiscriminatorPropertyName = "type")]
 [JsonDerivedType(typeof(BooleanPropertyType), typeDiscriminator: "boolean")]

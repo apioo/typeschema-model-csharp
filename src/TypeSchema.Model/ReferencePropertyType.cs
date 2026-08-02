@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// A reference to a defined type in the global 'definitions' map.
+/// Represents a reference to a type defined in the global definitions dictionary.
 /// </summary>
 public class ReferencePropertyType : PropertyType
 {

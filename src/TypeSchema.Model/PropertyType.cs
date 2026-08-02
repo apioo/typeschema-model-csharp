@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// The base abstract type for all property definitions within a struct or collection.
+/// The abstract base type for all property definitions within a struct or collection.
 /// </summary>
 [JsonPolymorphic(TypeDiscriminatorPropertyName = "type")]
 [JsonDerivedType(typeof(AnyPropertyType), typeDiscriminator: "any")]

@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// Abstract base for definitions that hold multiple values of a single type, such as arrays or maps.
+/// The abstract base type for collection definitions that contain multiple elements of a uniform type.
 /// </summary>
 [JsonPolymorphic(TypeDiscriminatorPropertyName = "type")]
 [JsonDerivedType(typeof(ArrayDefinitionType), typeDiscriminator: "array")]

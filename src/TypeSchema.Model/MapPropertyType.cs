@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// A property containing a map of dynamic keys to a consistent value type.
+/// Represents a property containing a key-value map where all values share the same schema.
 /// </summary>
 public class MapPropertyType : CollectionPropertyType
 {

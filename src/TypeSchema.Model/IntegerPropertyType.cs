@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 namespace TypeSchema.Model;
 
 /// <summary>
-/// Represents a whole number.
+/// Represents a whole number without fractional components.
 /// </summary>
 public class IntegerPropertyType : ScalarPropertyType
 {
